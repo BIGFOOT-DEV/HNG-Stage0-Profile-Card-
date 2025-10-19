@@ -40,7 +40,7 @@ Clone or Download the Repository
 
 If this project is in a GitHub repository, you would clone it:
 
-git clone [your-repo-url]
+git clone [[profile ](httcardps://github.com/BIGFOOT-DEV/HNG-Stage0-Profile-Card-)]
 cd profile-card-project
 
 If you only have the files, ensure they are all in the same directory:
