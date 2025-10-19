@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="resetstylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/e7b05b5935.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <article class="profile-card" data-testid="test-profile-card">
+      <div class="profile-header">
+        <figure class="profile-image-container">
+          <img
+            src="/Image/github.jpg"
+            alt="Profile Picture"
+            class="profile-image"
+            data-testid="test-user-avatar" />
+        </figure>
+        <h2 class="profile-name" data-testid="test-user-name"
+          >Omobobola Afolabi-Ige</h2
+        >
+        <p class="profile-bio" data-testid="test-user-bio">
+          Computer Science student & Frontend Dev in progress | Lover of tech,
+          design & gadgets.
+        </p>
+      </div>
+      <div class="profile-details">
+        <nav class="social-links" data-testid="test-user-social-links">
+          <ul>
+            <li>
+              <i class="fa-brands fa-x-twitter"></i>
+              <a
+                href="https://x.com/BIGF00T_DEV"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                data-testid="test-user-social-twitter"
+                >Twitter</a
+              ></li
+            >
+            <li>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <a
+                href="https://www.linkedin.com/in/omobobola-afolabi-ige-759b1928b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <i class="fa-brands fa-github"></i>
+              <a
+                href="https://github.com/BIGFOOT-DEV"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <section
+          class="additional-info"
+          data-testid="test-user-additional-info">
+          <ul class="hobbies" data-testid="test-user-hobbies">
+            <li><strong>Hobbies:</strong></li>
+            <li>Gaming</li>
+            <li>Overthinking</li>
+            <li>Imagining</li>
+          </ul>
+          <ul class="dislikes" data-testid="test-user-dislikes">
+            <li><strong>Dislikes:</strong></li>
+            <li>Dishonesty</li>
+            <li>Disappointment</li>
+            <li>Bad Vibes</li>
+          </ul>
+        </section>
+        <time
+          class="test-user-time"
+          data-testid="test-user-time"
+          id="currentTime">
+        </time>
+      </div>
+    </article>
+    <script src="/script.js"></script>
+  </body>
+</html>
